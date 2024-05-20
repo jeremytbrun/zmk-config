@@ -47,7 +47,7 @@
 
         COMBO_LALT {
             bindings = <&kp LALT>;
-            key-positions = <36 24>;
+            key-positions = <24 37>;
             layers = <4>;
         };
     };
