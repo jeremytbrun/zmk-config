@@ -42,6 +42,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        COMBO_LALT {
+            bindings = <&kp LALT>;
+            key-positions = <36 37>;
+            layers = <4>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
