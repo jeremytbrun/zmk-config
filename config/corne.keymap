@@ -45,7 +45,7 @@
     combos {
         compatible = "zmk,combos";
 
-        COMBO_LALT {
+        COMBO_GAME_LALT {
             bindings = <&kp LALT>;
             key-positions = <24 37>;
             layers = <4>;
