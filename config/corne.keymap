@@ -98,5 +98,23 @@
                                         &trans        &trans        &trans          &trans  &kp C_VOL_DN  &kp C_VOL_UP
             >;
         };
+
+        game_base {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans    &trans
+&trans  &kp A   &kp S   &kp D   &kp F   &trans    &trans  &kp J   &kp K   &kp L   &kp SEMI  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans    &trans
+                        &trans  &mo 5   &trans    &trans  &trans  &trans
+            >;
+        };
+
+        game_overlay {
+            bindings = <
+&trans  &kp P     &kp O    &kp I      &kp U   &kp Y     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp SEMI  &kp L    &kp K      &kp J   &kp H     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp FSLH  &kp DOT  &kp COMMA  &kp M   &kp N     &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans     &trans  &trans    &trans  &trans  &trans
+            >;
+        };
     };
 };
