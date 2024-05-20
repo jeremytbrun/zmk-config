@@ -14,7 +14,7 @@
     behaviors {
         hml: hml {
             compatible = "zmk,behavior-hold-tap";
-            label = "HML";
+            label = "homerow_mods_left";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -24,7 +24,7 @@
 
         hmr: hmr {
             compatible = "zmk,behavior-hold-tap";
-            label = "HMR";
+            label = "homerow_mods_right";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
