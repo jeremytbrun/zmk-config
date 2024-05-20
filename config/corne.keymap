@@ -50,6 +50,12 @@
             key-positions = <24 37>;
             layers = <4>;
         };
+
+        COMBO_GAME_LCTRL {
+            bindings = <&kp LCTRL>;
+            key-positions = <24 36>;
+            layers = <4>;
+        };
     };
 
     keymap {
