@@ -41,10 +41,10 @@
             tapping-term-ms = <200>;
         };
 
-        mtgl: mtgl {
+        mgl: mgl {
             compatible = "zmk,behavior-mod-morph";
-            label = "morph_to_game_layer";
-            bindings = <&mo 2>, <&to 4>;
+            label = "morph_game_layer";
+            bindings = <&mo 2>, <&tog 4>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
