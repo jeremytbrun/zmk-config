@@ -40,6 +40,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        glm: glm {
+            compatible = "zmk,behavior-mod-morph";
+            label = "game_layer_morph";
+            bindings = <&mo 2>, <&to 4>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     combos {
@@ -55,6 +64,15 @@
             bindings = <&kp LCTRL>;
             key-positions = <24 36>;
             layers = <4>;
+        };
+    };
+
+    macros {
+        MACRO_GAME_LAYER: MACRO_GAME_LAYER {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 4>;
+            label = "MACRO_GAME_LAYER";
         };
     };
 
